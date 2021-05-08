@@ -1,0 +1,46 @@
+body {
+    background-image: url("./IMG/dark_wood.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    color: darkgray;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.main div, header {
+    padding: 2%;
+    text-align: center;
+    margin: 1% auto;
+}
+
+.modal-content {
+    background-image: url('./IMG/ROCK4.jpg');
+    color: grey;
+} 
+
+.modal-body {
+    display: flex;
+    margin: auto;
+}
+.modal-body div {    
+    font-weight: 700;
+    text-align: end;
+    margin-right: 5%;
+}
+.modal-body div img {
+    width: 15vw;
+    height: auto;
+    border-radius: 80px;
+    border: 2px solid dimgray;
+}
+
+#shower {
+    margin-top: auto;
+}
+
+#divDropWeapon, #divDropItem {
+    height: 3em;
+}
